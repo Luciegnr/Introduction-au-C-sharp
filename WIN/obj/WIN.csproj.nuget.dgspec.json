@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/lucie/Desktop/ETNA/TIC/WIN1/WIN/WIN.csproj": {}
+  },
+  "projects": {
+    "/Users/lucie/Desktop/ETNA/TIC/WIN1/WIN/WIN.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/lucie/Desktop/ETNA/TIC/WIN1/WIN/WIN.csproj",
+        "projectName": "WIN",
+        "projectPath": "/Users/lucie/Desktop/ETNA/TIC/WIN1/WIN/WIN.csproj",
+        "packagesPath": "/Users/lucie/.nuget/packages/",
+        "outputPath": "/Users/lucie/Desktop/ETNA/TIC/WIN1/WIN/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/lucie/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "EasyEncryption": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.114.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.409/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
